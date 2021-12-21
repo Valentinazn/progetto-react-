@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../svg/patternBackgroundDesktop.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* =================
+   Navbar
+   ================= */
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* =================
+   Image
+   ================= */
+
+img {
+  max-width: 30px;
+}
+
+/* =================
+   Play-container section
+   ================= */
+
+.play-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.play-background {
+  margin-top: 0;
+  margin-right: 20px;
+  background: #f29057;
+  padding: 30px 30px;
+  border-radius: 50%;
+}
+
+/* =================
+   Time section
+   ================= */
+
+.time-display {
+  font-size: 6rem;
+  color: #a6785d;
+  margin: 30px 0 50px 0;
+  font-weight: bold;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+/* =================
+   Media-queries
+   ================= */
+
+@media (min-width: 500px) {
+  .time-display {
+    font-size: 10.675rem;
+  }
+
+  .play-background {
+    padding: 40px 40px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}

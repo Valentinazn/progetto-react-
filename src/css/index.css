@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  color: #a6785d;
+  text-align: center;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  color: #f18119;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 500px) {
+  #root,
+  body {
+    font-size: 1.125rem;
+    display: flex;
+  }
+
+  #root {
+    flex-grow: 1;
+  }
+
+  body > #root > div {
+    height: 100vh;
+  }
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
