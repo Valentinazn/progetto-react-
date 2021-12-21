@@ -17,4 +17,4 @@ For react hands-on project, I created a meditation site that includes a simple t
 
 
 
-See my work: https://valentinazn.github.io/Porfoglio-Start2impact-nuovo/
+See my work: https://progettos2ireact.netlify.app/
