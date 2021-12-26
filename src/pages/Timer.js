@@ -86,6 +86,6 @@ export default function Timer(){
   </>
 
   )
-  //#F2E7DC
+
 }
 
