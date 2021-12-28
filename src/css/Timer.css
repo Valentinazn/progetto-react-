@@ -52,6 +52,7 @@ img {
   background: #f29057;
   padding: 30px 30px;
   border-radius: 50%;
+  cursor: pointer;
    box-shadow: 0 1px 2.2px rgba(0, 0, 0, 0.051),
     0 2.3px 5.3px rgba(0, 0, 0, 0.059), 0 4.4px 10px rgba(0, 0, 0, 0.06),
     0 7.8px 17.9px rgba(0, 0, 0, 0.059), 0 14.6px 33.4px rgba(0, 0, 0, 0.059),
