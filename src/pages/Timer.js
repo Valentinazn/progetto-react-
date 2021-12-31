@@ -49,7 +49,7 @@ export default function Timer(){
      }
 
         function chooseTime(){
-            const player = prompt('Inserisci i minuti (esempio: 120 = 2 minuti) che desideri: ')
+            const player = prompt('Inserisci i secondi che desideri: ')
             setIsDuration( prevState => player)
             document.getElementById('time-display').textContent = `${Math.floor( player / 60).toString().padStart(2,'0')} : ${Math.floor(  player % 60).toString().padStart(2,'0')}`
       }
